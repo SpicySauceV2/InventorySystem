@@ -16,7 +16,7 @@ router.get("/inventory",(req,res) => {
 
 router.get("/hub",(req,res) => {
     console.log("here")
-    res.render("index.ejs")
+    res.render("hub.ejs")
 })
 
 router.get("/warehouse_resupply",(req,res) => {
@@ -27,7 +27,7 @@ router.get("/warehouse_resupply",(req,res) => {
 
 router.get("/login",(req,res) => {
     console.log("here")
-    res.render("account_entry.ejs")
+    res.render("index.html")
 })
 
 router.get("/financial",(req,res) =>{
