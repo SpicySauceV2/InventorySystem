@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Saidbury account entry</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<img src="images\saidburyV2.png" alt="Saidbury logo" id="Saidbury_logo">
+	<div class="center">
+		<form action="api/login" method="post" id="account_input" class="ACinput">
+			<label for="name">Employee name:</label><br>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="pwd">Password:</label><br>
+			<input type="password" id="pwd" name="pwd"><br><br>
+			<button type="submit">Enter</button>
+		</form>
+	</div>
+	<p id="attempts_warning" name="attempts_warning"></p>
+</body>
+
+</html>
